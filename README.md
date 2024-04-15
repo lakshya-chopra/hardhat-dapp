@@ -18,13 +18,18 @@
   ```
   npm init
   ```
-  Install hardhat in this new directory (use `-g` for global) using:
+  Install hardhat & hardhat-in this new directory (use `-g` for global) using:
   ```
    npm install --save-dev hardhat
   ```
+  ```
+npm install --save-dev @nomicfoundation/hardhat-toolbox
+```
 
   ### Initialize a new hardhat env:
   ```
   npx hardhat init
   ```
 ![image](https://github.com/lakshya-chopra/hardhat-dapp/assets/77010972/d77c9d42-2c75-4b2f-b5f3-57bcb58dc0c4)
+
+## Compile & Test:
