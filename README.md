@@ -51,7 +51,7 @@ npx hardhat test
 ## Deploy:
 
 Navigate to the project's main directory & run, here we'll use hardhat's ignition:
-
+Note: we can also deploy to some Web3 remote network like Infura, by sending some SepoliaEther.
 ```
 npx hardhat ignition deploy ./ignition/modules/Lock.js
 ```
