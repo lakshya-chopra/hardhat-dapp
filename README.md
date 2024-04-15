@@ -32,4 +32,18 @@ npm install --save-dev @nomicfoundation/hardhat-toolbox
   ```
 ![image](https://github.com/lakshya-chopra/hardhat-dapp/assets/77010972/d77c9d42-2c75-4b2f-b5f3-57bcb58dc0c4)
 
+## Hardhat folder structure:
+![image](https://github.com/lakshya-chopra/hardhat-dapp/assets/77010972/260edf48-38a4-4520-8939-abacbf45daad)
+
+
 ## Compile & Test:
+Navigate to the folder where your contracts are stored and run:
+```
+npx hardhat compile
+```
+
+For testing, go to the test DIRECTORY:
+```
+npx hardhat test
+```
+![image](https://github.com/lakshya-chopra/hardhat-dapp/assets/77010972/b3969b63-bcc2-42e4-a355-f016f49e7af5)
