@@ -47,3 +47,13 @@ For testing, go to the test DIRECTORY:
 npx hardhat test
 ```
 ![image](https://github.com/lakshya-chopra/hardhat-dapp/assets/77010972/b3969b63-bcc2-42e4-a355-f016f49e7af5)
+
+## Deploy:
+
+Navigate to the project's main directory & run, here we'll use hardhat's ignition:
+
+```
+npx hardhat ignition deploy ./ignition/modules/Lock.js
+```
+![image](https://github.com/lakshya-chopra/hardhat-dapp/assets/77010972/e2353534-eb54-44d2-8b31-3f1443f070f2)
+
