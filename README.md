@@ -57,3 +57,22 @@ npx hardhat ignition deploy ./ignition/modules/Lock.js
 ```
 ![image](https://github.com/lakshya-chopra/hardhat-dapp/assets/77010972/e2353534-eb54-44d2-8b31-3f1443f070f2)
 
+## Deploy locally using a custom made deploy.js script:
+
+Install {ethers} JS:
+```
+npm install --save ethers
+```
+```
+$ mkdir scripts && cd scripts
+$ touch deploy.js
+$ vim deploy.js
+```
+
+
+
+
+
+
+
+```
