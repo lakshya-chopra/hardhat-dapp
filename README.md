@@ -63,11 +63,39 @@ Install {ethers} JS:
 ```
 npm install --save ethers
 ```
+Next up, create a frontend directory to interact with your contract:
+```
+$ mkdir frontend
+$ cd frontend
+$ npx create-react-app Lock
+```
+Make a deploy.js script:
 ```
 $ mkdir scripts && cd scripts
 $ touch deploy.js
 $ vim deploy.js
 ```
+Fill the contents of `deploy.js` that are provided [here](https://github.com/lakshya-chopra/hardhat-dapp/blob/main/scripts/deploy.js)
+This will allow your frontend app to access the contract's ABIs, the runtime bytecode & metadata.
+This is how they look like:
+![image](https://github.com/lakshya-chopra/hardhat-dapp/assets/77010972/b1403388-9a27-426d-bb60-e7309c191381)
+
+
+Launch a hardhat node server:
+```
+npx hardhat node
+```
+
+In a new dev terminal, run the deploy.js script:
+```
+$ npx hardhat run scripts/deploy.js --network localhost
+```
+![image](https://github.com/lakshya-chopra/hardhat-dapp/assets/77010972/280e09df-cfaf-4d7d-9d3c-a939828cf52b)
+
+Next, we will link this with our MetaMask wallet (create one by installing it's chrome extension) & create a frontend UI to create interactive content.
+
+
+
 
 
 
