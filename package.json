@@ -1,7 +1,7 @@
 {
   "name": "deploycontracts",
   "version": "1.0.0",
-  "description": "",
+  "description": "## Pre-requisites:",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,6 +10,12 @@
   "license": "ISC",
   "devDependencies": {
     "@nomicfoundation/hardhat-toolbox": "^5.0.0",
-    "hardhat": "^2.22.2"
+    "hardhat": "^2.22.3"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "ethers": "^6.12.0"
   }
 }
