@@ -94,6 +94,13 @@ $ npx hardhat run scripts/deploy.js --network localhost
 
 Next, we will link this with our MetaMask wallet (create one by installing it's chrome extension) & create a frontend UI to create interactive content.
 
+## create frontend directory:
+```
+$ cd frontend
+$ npx create-react-app dapp
+
+```
+
 
 
 
