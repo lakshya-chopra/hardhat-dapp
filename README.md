@@ -85,6 +85,7 @@ Launch a hardhat node server:
 ```
 npx hardhat node
 ```
+This starts a new JSON RPC server at `http://127.0.0.1:8545`.
 
 In a new dev terminal, run the deploy.js script:
 ```
@@ -92,15 +93,16 @@ $ npx hardhat run scripts/deploy.js --network localhost
 ```
 ![image](https://github.com/lakshya-chopra/hardhat-dapp/assets/77010972/280e09df-cfaf-4d7d-9d3c-a939828cf52b)
 
-Next, we will link this with our MetaMask wallet (create one by installing it's chrome extension) & create a frontend UI to create interactive content.
+Next, we will link this with our MetaMask wallet (create one by installing it's chrome extension) & create a frontend UI to create interactive content, i.e. we'll link to this smart contract.
 
 ## create frontend directory:
 ```
 $ cd frontend
 $ npx create-react-app dapp
+$ yarn install ethers
 
 ```
-
+Here, we'll link our contract artifacts to the App.Js file
 
 
 
